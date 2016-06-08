@@ -1,0 +1,15 @@
+2016-05-29T16:06:11.168927000 0.342776s notice: Recursively removing directory /Users/carl/coding/voter-redux-react-immutable/server/rethinkdb_data/tmp
+2016-05-29T16:06:11.172647000 0.346498s notice: Initializing directory /Users/carl/coding/voter-redux-react-immutable/server/rethinkdb_data
+2016-05-29T16:06:11.172724000 0.346572s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/carl/coding/voter-redux-react-immutable/server/rethinkdb_data' did not already exist or is empty.)
+2016-05-29T16:06:11.172740000 0.346589s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-05-29T16:06:11.175353000 0.349202s notice: Running on Darwin 14.5.0 x86_64
+2016-05-29T16:06:11.175407000 0.349255s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/server/rethinkdb_data
+2016-05-29T16:06:11.298956000 0.472804s info: Automatically using cache size of 5710 MB
+2016-05-29T16:06:11.299628000 0.473476s notice: Listening for intracluster connections on port 29015
+2016-05-29T16:06:11.301289000 0.475137s notice: Listening for client driver connections on port 28015
+2016-05-29T16:06:11.301367000 0.475215s notice: Listening for administrative HTTP connections on port 8080
+2016-05-29T16:06:11.301369000 0.475217s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-05-29T16:06:11.301372000 0.475220s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-05-29T16:06:11.301373000 0.475221s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-05-29T16:06:11.301375000 0.475223s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-05-29T16:06:11.301378000 0.475226s notice: Server ready, "carls_Mac_Pro_local_ipq" 11c21f29-0af5-45da-bfcf-3947fd27eb41

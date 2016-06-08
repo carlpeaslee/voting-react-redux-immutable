@@ -1,0 +1,160 @@
+2016-05-29T15:04:25.963323000 0.004794s notice: Recursively removing directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/tmp
+2016-05-29T15:04:25.964096000 0.005569s notice: Initializing directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-05-29T15:04:25.964157000 0.005627s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/carl/coding/voter-redux-react-immutable/rethinkdb_data' did not already exist or is empty.)
+2016-05-29T15:04:25.964171000 0.005641s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-05-29T15:04:25.966814000 0.008285s notice: Running on Darwin 14.5.0 x86_64
+2016-05-29T15:04:25.966863000 0.008333s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-05-29T15:04:26.055838000 0.097308s info: Automatically using cache size of 5136 MB
+2016-05-29T15:04:26.056178000 0.097649s notice: Listening for intracluster connections on port 29015
+2016-05-29T15:04:26.057090000 0.098560s notice: Listening for client driver connections on port 28015
+2016-05-29T15:04:26.057162000 0.098632s notice: Listening for administrative HTTP connections on port 8080
+2016-05-29T15:04:26.057164000 0.098634s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-05-29T15:04:26.057167000 0.098637s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-05-29T15:04:26.057168000 0.098638s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-05-29T15:04:26.057170000 0.098641s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-05-29T15:04:26.057173000 0.098643s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-05-29T15:04:28.157316000 2.198794s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:31.498320000 5.539810s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:34.498507000 8.540007s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:37.500275000 11.541784s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:40.025882000 14.067402s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:43.423473000 17.465005s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:47.311236000 21.352783s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:49.375889000 23.417444s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:53.413110000 27.454680s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:55.389864000 29.431438s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:04:59.121978000 33.163568s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:01.114484000 35.156081s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:05.396933000 39.438546s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:07.431793000 41.473413s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:11.457944000 45.499580s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:13.462146000 47.503786s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:17.439441000 51.481096s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:19.443493000 53.485155s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:23.456361000 57.498039s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:25.412946000 59.454632s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:29.417133000 63.458835s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:31.447768000 65.489474s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:35.450783000 69.492504s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:37.419123000 71.460852s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:41.296104000 75.337849s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:43.506767000 77.548519s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:05:44.358701000 78.400457s notice: Someone asked for the nonwhitelisted file "/sockjs-node/info".  If this should be accessible, add it to the static web assets.
+2016-05-29T15:06:26.880822000 120.922735s notice: Server got SIGINT from pid 1590, uid 501; shutting down...
+2016-05-29T15:06:26.880875000 120.922787s notice: Shutting down client connections...
+2016-05-29T15:06:26.883059000 120.924972s notice: All client connections closed.
+2016-05-29T15:06:26.883067000 120.924980s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-05-29T15:06:26.883257000 120.925169s notice: Storage engine shut down.
+2016-05-29T15:08:23.192485000 0.256110s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-05-29T15:08:23.195331000 0.258954s notice: Running on Darwin 14.5.0 x86_64
+2016-05-29T15:08:23.195362000 0.258984s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-05-29T15:08:23.217103000 0.280725s info: Automatically using cache size of 5285 MB
+2016-05-29T15:08:23.217458000 0.281080s notice: Listening for intracluster connections on port 29015
+2016-05-29T15:08:23.218407000 0.282029s notice: Listening for client driver connections on port 28015
+2016-05-29T15:08:23.218489000 0.282111s notice: Listening for administrative HTTP connections on port 8080
+2016-05-29T15:08:23.218491000 0.282113s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-05-29T15:08:23.218494000 0.282116s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-05-29T15:08:23.218495000 0.282117s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-05-29T15:08:23.218498000 0.282120s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-05-29T15:08:23.218501000 0.282123s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-05-29T15:14:31.168004000 368.232975s notice: Server got SIGINT from pid 1590, uid 501; shutting down...
+2016-05-29T15:14:31.168056000 368.233027s notice: Shutting down client connections...
+2016-05-29T15:14:31.168215000 368.233186s notice: All client connections closed.
+2016-05-29T15:14:31.168220000 368.233190s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-05-29T15:14:31.168404000 368.233375s notice: Storage engine shut down.
+2016-05-29T15:14:37.527459000 0.283287s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-05-29T15:14:37.530304000 0.286129s notice: Running on Darwin 14.5.0 x86_64
+2016-05-29T15:14:37.530334000 0.286158s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-05-29T15:14:37.565277000 0.321102s info: Automatically using cache size of 5217 MB
+2016-05-29T15:14:37.566159000 0.321983s notice: Listening for intracluster connections on port 29015
+2016-05-29T15:14:37.567084000 0.322908s notice: Listening for client driver connections on port 28015
+2016-05-29T15:14:37.567176000 0.323000s notice: Listening for administrative HTTP connections on port 8080
+2016-05-29T15:14:37.567645000 0.323470s notice: Listening on cluster addresses: 127.0.0.1, 10.0.1.11, ::1, fe80::1%1, fe80::c66e:1fff:fe1f:a7f9%4
+2016-05-29T15:14:37.568093000 0.323917s notice: Listening on driver addresses: 127.0.0.1, 10.0.1.11, ::1, fe80::1%1, fe80::c66e:1fff:fe1f:a7f9%4
+2016-05-29T15:14:37.568423000 0.324248s notice: Listening on http addresses: 127.0.0.1, 10.0.1.11, ::1, fe80::1%1, fe80::c66e:1fff:fe1f:a7f9%4
+2016-05-29T15:14:37.568430000 0.324254s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-01T15:00:30.819472000 0.299472s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-01T15:00:30.822633000 0.302631s notice: Running on Darwin 14.5.0 x86_64
+2016-06-01T15:00:30.822665000 0.302662s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-01T15:00:30.851480000 0.331477s info: Automatically using cache size of 5800 MB
+2016-06-01T15:00:30.852228000 0.332226s notice: Listening for intracluster connections on port 29015
+2016-06-01T15:00:30.854028000 0.334025s notice: Listening for client driver connections on port 28015
+2016-06-01T15:00:30.854121000 0.334118s notice: Listening for administrative HTTP connections on port 8080
+2016-06-01T15:00:30.854127000 0.334124s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-01T15:00:30.854130000 0.334127s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-01T15:00:30.854132000 0.334128s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-01T15:00:30.854134000 0.334131s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-01T15:00:30.854137000 0.334134s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-01T15:27:34.784885000 1624.274130s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: Starting a new Raft election for term 1.
+2016-06-01T15:27:34.785125000 1624.274370s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: Added replica on this server.
+2016-06-01T15:27:34.808994000 1624.298239s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-01T15:29:06.921896000 1716.411675s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: Starting a new Raft election for term 1.
+2016-06-01T15:29:06.922062000 1716.411841s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: Added replica on this server.
+2016-06-01T15:29:06.940837000 1716.430616s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-01T15:29:37.892415000 1747.382374s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: Configuration is changing.
+2016-06-01T17:26:28.335914000 0.273832s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-01T17:26:28.338761000 0.276677s notice: Running on Darwin 14.5.0 x86_64
+2016-06-01T17:26:28.338795000 0.276710s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-01T17:26:28.370627000 0.308543s info: Automatically using cache size of 4971 MB
+2016-06-01T17:26:28.370975000 0.308891s notice: Listening for intracluster connections on port 29015
+2016-06-01T17:26:28.387990000 0.325906s notice: Listening for client driver connections on port 28015
+2016-06-01T17:26:28.388162000 0.326078s notice: Listening for administrative HTTP connections on port 8080
+2016-06-01T17:26:28.388164000 0.326080s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-01T17:26:28.388165000 0.326081s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-01T17:26:28.388167000 0.326082s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-01T17:26:28.388168000 0.326083s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-01T17:26:28.388173000 0.326089s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-01T17:26:28.685702000 0.623618s notice: A newer version of the RethinkDB server is available: 2.3.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-01T17:26:29.746250000 1.684173s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: Starting a new Raft election for term 2.
+2016-06-01T17:26:29.768692000 1.706615s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: This server is Raft leader for term 2. Latest log index is 3.
+2016-06-01T17:26:30.368425000 2.306354s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: Starting a new Raft election for term 2.
+2016-06-01T17:26:30.381965000 2.319894s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: This server is Raft leader for term 2. Latest log index is 2.
+2016-06-01T17:37:48.744858000 680.686637s notice: Server got SIGINT from pid 1731, uid 501; shutting down...
+2016-06-01T17:37:48.744914000 680.686692s notice: Shutting down client connections...
+2016-06-01T17:37:48.744973000 680.686752s notice: All client connections closed.
+2016-06-01T17:37:48.744977000 680.686755s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-06-01T17:37:48.750077000 680.691856s notice: Storage engine shut down.
+2016-06-01T17:43:59.410680000 0.290178s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-01T17:43:59.413481000 0.292977s notice: Running on Darwin 14.5.0 x86_64
+2016-06-01T17:43:59.413523000 0.293019s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-01T17:43:59.433385000 0.312880s info: Automatically using cache size of 4816 MB
+2016-06-01T17:43:59.433785000 0.313280s notice: Listening for intracluster connections on port 29015
+2016-06-01T17:43:59.448874000 0.328369s notice: Listening for client driver connections on port 28015
+2016-06-01T17:43:59.448959000 0.328454s notice: Listening for administrative HTTP connections on port 8080
+2016-06-01T17:43:59.448961000 0.328456s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-01T17:43:59.448962000 0.328457s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-01T17:43:59.448963000 0.328459s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-01T17:43:59.448965000 0.328460s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-01T17:43:59.448966000 0.328462s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-01T17:44:00.047529000 0.927031s notice: A newer version of the RethinkDB server is available: 2.3.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-01T17:44:00.545537000 1.425038s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: Starting a new Raft election for term 3.
+2016-06-01T17:44:00.562231000 1.441732s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: This server is Raft leader for term 3. Latest log index is 6.
+2016-06-01T17:44:00.808933000 1.688441s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: Starting a new Raft election for term 3.
+2016-06-01T17:44:00.853768000 1.733276s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: This server is Raft leader for term 3. Latest log index is 5.
+2016-06-01T18:30:43.489347000 2804.384731s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: Starting a new Raft election for term 1.
+2016-06-01T18:30:43.489452000 2804.384835s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: Added replica on this server.
+2016-06-01T18:30:43.500038000 2804.395421s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Starting a new Raft election for term 1.
+2016-06-01T18:30:43.500170000 2804.395554s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Added replica on this server.
+2016-06-01T18:30:43.518945000 2804.414328s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-01T18:30:43.525572000 2804.420956s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-01T18:31:48.189585000 2869.085334s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/4cad50c8-3e20-4132-ac3a-1faf636da59f
+2016-06-01T18:31:48.189592000 2869.085340s info: Table 4cad50c8-3e20-4132-ac3a-1faf636da59f: Deleted the table.
+2016-06-01T18:31:48.223865000 2869.119613s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/bfeaee5c-d826-4876-bc40-03e42b65545a
+2016-06-01T18:31:48.223870000 2869.119618s info: Table bfeaee5c-d826-4876-bc40-03e42b65545a: Deleted the table.
+2016-06-02T08:09:37.835750000 0.318361s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-02T08:09:37.839107000 0.321715s notice: Running on Darwin 14.5.0 x86_64
+2016-06-02T08:09:37.839139000 0.321746s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-02T08:09:37.858110000 0.340717s info: Automatically using cache size of 6299 MB
+2016-06-02T08:09:37.858804000 0.341411s notice: Listening for intracluster connections on port 29015
+2016-06-02T08:09:37.875637000 0.358244s notice: Listening for client driver connections on port 28015
+2016-06-02T08:09:37.875756000 0.358364s notice: Listening for administrative HTTP connections on port 8080
+2016-06-02T08:09:37.875759000 0.358366s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-02T08:09:37.875760000 0.358367s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-02T08:09:37.875761000 0.358368s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-02T08:09:37.875762000 0.358369s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-02T08:09:37.875769000 0.358376s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-02T08:09:38.179135000 0.661742s notice: A newer version of the RethinkDB server is available: 2.3.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-02T08:09:39.553992000 2.036607s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: Starting a new Raft election for term 2.
+2016-06-02T08:09:39.575989000 2.058604s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: This server is Raft leader for term 2. Latest log index is 3.
+2016-06-02T08:09:39.847612000 2.330228s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Starting a new Raft election for term 2.
+2016-06-02T08:09:39.901300000 2.383916s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: This server is Raft leader for term 2. Latest log index is 3.
