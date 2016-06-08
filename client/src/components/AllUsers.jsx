@@ -12,7 +12,7 @@ export default React.createClass({
     return <div className="Users">
       {this.getUsers().map(user =>
         <div key={user.user_id}>
-          <h1>{user.name}</h1>
+          <h2>{user.name}</h2>
           <button
             key={user.user_id}
             onClick={() => this.props.setCurrentUser(user)}
