@@ -1,19 +1,19 @@
 import React from 'react';
+import classNames from 'classnames';
+import PureRenderMixin from 'react-addons-pure-render-mixin';
+
+import CurrentUser from './CurrentUser';
+import AllUsers from './AllUsers';
+
 
 export default React.createClass({
-  getUsers: function() {
-    return this.props.users || [];
-  },
-  getDocs: function() {
-    return this.props.docs || [];
-  },
+  mixins: [PureRenderMixin],
   render: function() {
-    return <div className="Main">
-      {this.getUsers().map(user =>
-        <div key={user.user_id}>
-          <h1>{user.name}</h1>
-        </div>
-      )}
+    return <div>
+      <CurrentUser currentUser={this.props.currentUser}>
+      </CurrentUser>
+      <AllUsers users={this.props.users}>
+      </AllUsers>
     </div>;
   }
 });

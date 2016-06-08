@@ -1,4 +1,8 @@
 {
+  "currentUser" : {
+    "user_id": 201,
+    "name": "Jimmy"
+  },
   "docs": [
     {
       "doc_id" : 101,

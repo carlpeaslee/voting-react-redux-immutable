@@ -7,16 +7,22 @@ module.exports = {
     './src/index.jsx'
 ],
   module: {
-    loaders: [{
-      test: /\.jsx?$/,
-      exclude: /node_modules/,
-      loader: 'react-hot!babel'
-    },
-    {
-      test: /\.json?$/,
-      exclude: /node_modules/,
-      loader: 'react-hot!json-loader'
-    }]
+    loaders: [
+      {
+        test: /\.jsx?$/,
+        exclude: /node_modules/,
+        loader: 'react-hot!babel'
+      },
+      {
+        test: /\.json?$/,
+        exclude: /node_modules/,
+        loader: 'react-hot!json-loader'
+      },
+      {
+        test: /\.scss$/,
+        loaders: ['style', 'css', 'sass'],
+      }
+    ]
   },
   resolve: {
     extensions: ['', '.js', '.jsx', '.json']
