@@ -17,8 +17,7 @@ let dbConfig = {
   port: parseInt(process.env.RDB_PORT) || 28015,
   db  : process.env.RDB_DB || 'vote',
   tables: {
-    'users': 'id',
-    'docs': 'id'
+    'data' : 'id'
   }
 };
 
@@ -28,7 +27,7 @@ let dbConfig = {
  * - create the `RDB_DB` database (defaults to `chat`)
  * - create tables `messages`, `cache`, `users` in this database
  */
-module.exports.setup = function() {
+export function dbSetup() {
   r.connect({host: dbConfig.host, port: dbConfig.port }, function (err, connection) {
     assert.ok(err === null, err);
     r.dbCreate(dbConfig.db).run(connection, function(err, result) {

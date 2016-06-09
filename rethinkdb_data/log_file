@@ -182,3 +182,47 @@
 2016-06-08T15:43:36.329156000 1.565451s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: This server is Raft leader for term 3. Latest log index is 6.
 2016-06-08T15:43:36.723003000 1.959328s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Starting a new Raft election for term 3.
 2016-06-08T15:43:36.734844000 1.971168s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: This server is Raft leader for term 3. Latest log index is 6.
+2016-06-09T13:53:32.649613000 0.357762s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-09T13:53:32.652842000 0.360990s notice: Running on Darwin 14.5.0 x86_64
+2016-06-09T13:53:32.652878000 0.361024s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-09T13:53:32.678982000 0.387128s info: Automatically using cache size of 4721 MB
+2016-06-09T13:53:32.679651000 0.387797s notice: Listening for intracluster connections on port 29015
+2016-06-09T13:53:32.697361000 0.405508s notice: Listening for client driver connections on port 28015
+2016-06-09T13:53:32.697531000 0.405677s notice: Listening for administrative HTTP connections on port 8080
+2016-06-09T13:53:32.697534000 0.405680s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-09T13:53:32.697535000 0.405681s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-09T13:53:32.697536000 0.405682s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-09T13:53:32.697546000 0.405691s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-09T13:53:32.697547000 0.405693s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-09T13:53:32.974238000 0.682398s notice: A newer version of the RethinkDB server is available: 2.3.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-09T13:53:33.783089000 1.491249s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: Starting a new Raft election for term 4.
+2016-06-09T13:53:33.811962000 1.520122s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: This server is Raft leader for term 4. Latest log index is 9.
+2016-06-09T13:53:34.524381000 2.232556s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Starting a new Raft election for term 4.
+2016-06-09T13:53:34.544503000 2.252678s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: This server is Raft leader for term 4. Latest log index is 9.
+2016-06-09T13:55:14.316987000 102.026562s info: Table 66c33790-9d17-42b6-80fa-93384a9590ac: Starting a new Raft election for term 1.
+2016-06-09T13:55:14.317106000 102.026681s info: Table 66c33790-9d17-42b6-80fa-93384a9590ac: Added replica on this server.
+2016-06-09T13:55:14.334059000 102.043634s info: Table 66c33790-9d17-42b6-80fa-93384a9590ac: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-09T13:57:03.378034000 211.089132s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/66c33790-9d17-42b6-80fa-93384a9590ac
+2016-06-09T13:57:03.378040000 211.089137s info: Table 66c33790-9d17-42b6-80fa-93384a9590ac: Deleted the table.
+2016-06-09T13:57:03.411398000 211.122496s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/a1e48525-349e-49ee-905a-9bc057a82bfa
+2016-06-09T13:57:03.411404000 211.122502s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: Deleted the table.
+2016-06-09T13:57:03.426034000 211.137132s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/e1c9a7d8-fc2b-4815-9765-aca04b29aeb9
+2016-06-09T13:57:03.426040000 211.137138s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Deleted the table.
+2016-06-09T14:03:10.503794000 578.220179s info: Table 13a64cdb-a0cd-452e-813c-f7f26b9933fa: Starting a new Raft election for term 1.
+2016-06-09T14:03:10.503884000 578.220269s info: Table 13a64cdb-a0cd-452e-813c-f7f26b9933fa: Added replica on this server.
+2016-06-09T14:03:10.527894000 578.244279s info: Table afee1f9d-dda4-499f-8dc5-2fd750f0ab1d: Starting a new Raft election for term 1.
+2016-06-09T14:03:10.527998000 578.244382s info: Table afee1f9d-dda4-499f-8dc5-2fd750f0ab1d: Added replica on this server.
+2016-06-09T14:03:10.551565000 578.267950s info: Table 29507ffd-4436-406c-aab5-5286b92e8f0f: Starting a new Raft election for term 1.
+2016-06-09T14:03:10.551625000 578.268010s info: Table 29507ffd-4436-406c-aab5-5286b92e8f0f: Added replica on this server.
+2016-06-09T14:03:10.570054000 578.286439s info: Table 13a64cdb-a0cd-452e-813c-f7f26b9933fa: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-09T14:03:10.570086000 578.286471s info: Table afee1f9d-dda4-499f-8dc5-2fd750f0ab1d: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-09T14:03:10.570099000 578.286483s info: Table 29507ffd-4436-406c-aab5-5286b92e8f0f: This server is Raft leader for term 1. Latest log index is 0.
+2016-06-09T14:15:24.195998000 1311.922930s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/13a64cdb-a0cd-452e-813c-f7f26b9933fa
+2016-06-09T14:15:24.196004000 1311.922936s info: Table 13a64cdb-a0cd-452e-813c-f7f26b9933fa: Deleted the table.
+2016-06-09T14:15:24.218514000 1311.945446s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/29507ffd-4436-406c-aab5-5286b92e8f0f
+2016-06-09T14:15:24.218521000 1311.945453s info: Table 29507ffd-4436-406c-aab5-5286b92e8f0f: Deleted the table.
+2016-06-09T14:15:24.238824000 1311.965756s notice: Removing file /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data/afee1f9d-dda4-499f-8dc5-2fd750f0ab1d
+2016-06-09T14:15:24.238830000 1311.965761s info: Table afee1f9d-dda4-499f-8dc5-2fd750f0ab1d: Deleted the table.
+2016-06-09T14:22:49.113439000 1756.846604s info: Table 389db951-17a3-47a2-b4c3-9a517fd78f51: Starting a new Raft election for term 1.
+2016-06-09T14:22:49.113546000 1756.846711s info: Table 389db951-17a3-47a2-b4c3-9a517fd78f51: Added replica on this server.
+2016-06-09T14:22:49.126816000 1756.859982s info: Table 389db951-17a3-47a2-b4c3-9a517fd78f51: This server is Raft leader for term 1. Latest log index is 0.

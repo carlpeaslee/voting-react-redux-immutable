@@ -1,6 +1,10 @@
 import makeStore from './src/store';
 import {startServer} from './src/server';
 
+import {dbSetup} from './db';
+
+dbSetup();
+
 export const store = makeStore();
 startServer(store);
 
