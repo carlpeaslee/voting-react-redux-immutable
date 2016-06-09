@@ -1,7 +1,8 @@
 import React from 'react';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
+import {connect} from 'react-redux';
 
-export default React.createClass({
+export const Docs = React.createClass({
   mixins: [PureRenderMixin],
   getDocs: function() {
     return this.props.docs || [];
@@ -9,11 +10,19 @@ export default React.createClass({
   render: function() {
     return <div className="docs">
       {this.getDocs().map(doc =>
-        <div key={doc.doc_id} className="entry">
-          <h2>{doc.title}</h2>
-          <p>{doc.body}</p>
+        <div key={doc.get('doc_id')} className="entry">
+          <h2>{doc.get('title')}</h2>
+          <p>{doc.get('body')}</p>
         </div>
       )}
     </div>;
   }
 });
+
+function mapStateToProps(state) {
+  return {
+    docs: state.getIn(['data', 'docs'])
+  }
+}
+
+export const DocsContainer = connect(mapStateToProps)(Docs);

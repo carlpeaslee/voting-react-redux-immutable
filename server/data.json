@@ -1,12 +1,50 @@
-[
-  {
-    "title": "cheese bread",
-    "body": "lets ban its forever",
-    "id": 11
+{
+  "currentUser" : {
+    "user_id": 201,
+    "name": "Jimmy"
   },
-  {
-    "title": "taco nation",
-    "body": "this should be a taco nation forever",
-    "id": 22
-  }
-]
+  "docs": [
+    {
+      "doc_id" : 101,
+      "title": "The Become a Clown Law",
+      "creator" : 201,
+      "body" : "don't you believe that everyone should become a clown? this bill does that",
+      "votesInfavor" : 0,
+      "votesAgainst" : 0
+    },
+    {
+      "doc_id" : 102,
+      "title": "Horses should be illegal",
+      "creator" : 203,
+      "body" : "don't you think that horses should be banned forever?",
+      "votesInfavor" : 0,
+      "votesAgainst" : 0
+    },
+    {
+      "doc_id" : 103,
+      "title": "Barbeque International Day",
+      "creator" : 202,
+      "body" : "what if we had one day every year where we all just ate lots of bbq",
+      "votesInfavor" : 0,
+      "votesAgainst" : 0
+    }
+  ],
+  "users" :[
+    {
+        "user_id": 201,
+        "name": "Jimmy"
+    },
+    {
+        "user_id": 202,
+        "name": "Sanjay"
+    },
+    {
+        "user_id": 203,
+        "name": "Cindy"
+    },
+    {
+        "user_id": 204,
+        "name": "Maria"
+    }
+  ]
+}

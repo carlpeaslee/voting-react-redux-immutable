@@ -158,3 +158,27 @@
 2016-06-02T08:09:39.575989000 2.058604s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: This server is Raft leader for term 2. Latest log index is 3.
 2016-06-02T08:09:39.847612000 2.330228s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Starting a new Raft election for term 2.
 2016-06-02T08:09:39.901300000 2.383916s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: This server is Raft leader for term 2. Latest log index is 3.
+2016-06-08T15:42:08.773115000 0.343094s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-08T15:42:08.776028000 0.346004s notice: Running on Darwin 14.5.0 x86_64
+2016-06-08T15:42:08.776059000 0.346034s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-08T15:42:08.807755000 0.377730s info: Automatically using cache size of 3483 MB
+2016-06-08T15:42:08.808479000 0.378454s notice: Listening for intracluster connections on port 29015
+2016-06-08T15:42:08.827590000 0.397565s notice: Listening for client driver connections on port 28015
+2016-06-08T15:42:08.842877000 0.412852s error: Could not bind to http port: The address at localhost:8080 is reserved or already in use.
+2016-06-08T15:43:34.769241000 0.005539s notice: Running rethinkdb 2.3.2 (CLANG 7.3.0 (clang-703.0.29))...
+2016-06-08T15:43:34.772389000 0.008685s notice: Running on Darwin 14.5.0 x86_64
+2016-06-08T15:43:34.772436000 0.008730s notice: Loading data from directory /Users/carl/coding/voter-redux-react-immutable/rethinkdb_data
+2016-06-08T15:43:34.819447000 0.055742s info: Automatically using cache size of 3484 MB
+2016-06-08T15:43:34.819768000 0.056063s notice: Listening for intracluster connections on port 29015
+2016-06-08T15:43:34.834655000 0.070950s notice: Listening for client driver connections on port 28015
+2016-06-08T15:43:34.834740000 0.071034s notice: Listening for administrative HTTP connections on port 8080
+2016-06-08T15:43:34.834742000 0.071036s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2016-06-08T15:43:34.834743000 0.071037s notice: Listening on driver addresses: 127.0.0.1, ::1
+2016-06-08T15:43:34.834744000 0.071038s notice: Listening on http addresses: 127.0.0.1, ::1
+2016-06-08T15:43:34.834745000 0.071039s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-06-08T15:43:34.834746000 0.071041s notice: Server ready, "carls_Mac_Pro_local_wiz" c1af2ffd-9df7-4925-8138-17fa9617b6e8
+2016-06-08T15:43:35.150469000 0.386764s notice: A newer version of the RethinkDB server is available: 2.3.3. You can read the changelog at <https://github.com/rethinkdb/rethinkdb/releases>.
+2016-06-08T15:43:36.308649000 1.544944s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: Starting a new Raft election for term 3.
+2016-06-08T15:43:36.329156000 1.565451s info: Table a1e48525-349e-49ee-905a-9bc057a82bfa: This server is Raft leader for term 3. Latest log index is 6.
+2016-06-08T15:43:36.723003000 1.959328s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: Starting a new Raft election for term 3.
+2016-06-08T15:43:36.734844000 1.971168s info: Table e1c9a7d8-fc2b-4815-9765-aca04b29aeb9: This server is Raft leader for term 3. Latest log index is 6.

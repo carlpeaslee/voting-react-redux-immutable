@@ -1,8 +1,8 @@
-import {List, Map} from 'immutable';
+
+import {Map, List} from 'immutable';
 
 export const INITIAL_STATE = Map();
 
-export function initialize(state, docs) {
-  const list = List(docs);
-  return state.set('docs', docs);
+export function setData(state, data) {
+  return state.set('data', Map(data));
 }

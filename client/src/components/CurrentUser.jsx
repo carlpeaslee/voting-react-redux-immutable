@@ -1,16 +1,16 @@
 import React from 'react';
 import classNames from 'classnames';
 import PureRenderMixin from 'react-addons-pure-render-mixin';
+import {Map} from 'immutable';
 
 
 export default React.createClass({
   mixins: [PureRenderMixin],
   getCurrentUser: function() {
-    if (this.props.currentUser.has("user_id")) {
+    if (this.props.currentUser && this.props.currentUser.has('user_id')) {
       return this.props.currentUser;
     }
-    console.log('no one is logged in');
-    return -1;
+    return Map();
   },
   render: function() {
     return <div className="CurrentUser">
