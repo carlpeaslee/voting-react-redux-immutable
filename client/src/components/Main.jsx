@@ -14,7 +14,7 @@ export const Main = React.createClass({
   render: function() {
     return <div>
       <CurrentUser currentUser={this.props.currentUser}></CurrentUser>
-      <AllUsers users={this.props.users}></AllUsers>
+      <AllUsers {...this.props}></AllUsers>
     </div>;
   }
 });

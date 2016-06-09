@@ -12,3 +12,11 @@ export function setConnectionState(state, connected) {
     connected
   };
 }
+
+export function setCurrentUser(newCurrentUser) {
+  return {
+    meta: {remote: true},
+    type: 'SET_CURRENT_USER',
+    newCurrentUser
+  };
+}

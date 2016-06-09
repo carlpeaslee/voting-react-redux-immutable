@@ -12,6 +12,16 @@ function setConnectionState(state, connectionState, connected) {
   }));
 }
 
+function setCurrentUser(state, newCurrentUser) {
+  return state.setIn(
+    ['data', 'currentUser'],
+    Map({
+      user_id: newCurrentUser.user_id,
+      name: newCurrentUser.name
+    })
+  );
+}
+
 export default function(state = Map(), action) {
   switch (action.type) {
   case 'SET_STATE':
@@ -19,6 +29,8 @@ export default function(state = Map(), action) {
     return setState(state, action.state);
   case 'SET_CONNECTION_STATE':
     return setConnectionState(state, action.state, action.connected);
+  case 'SET_CURRENT_USER':
+    return setCurrentUser(state, action.newCurrentUser);
   }
   return state;
 }
